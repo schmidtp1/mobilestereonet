@@ -104,7 +104,7 @@ The arguments in both cases can be set differently depending on the model, datas
 The following script creates disparity maps for a specified model:
 
 ```shell
-python prediction.py --datapath $DATAPATH --testlist ./filenames/kitti15_test.txt --loadckpt ./checkpoints/finetuned.ckpt --dataset kitti --colored True --model MSNet2D
+python prediction.py --datapath $DATAPATH --testlist ./filenames/kitti15_test.txt --loadckpt ./checkpoints/finetuned.ckpt --dataset kitti --colored 1 --model MSNet2D
 ```
 
 ## Credits
@@ -130,4 +130,4 @@ If you use this code, please cite this project.
 
 ## Contact
 The repository is maintained by [Faranak Shamsafar](https://www.linkedin.com/in/faranak-shamsafar/).  
-[f.shmsfr@gmail.com](f.shmsfr@gmail.com)  
+[f.shmsfr@gmail.com](f.shmsfr@gmail.com)    
